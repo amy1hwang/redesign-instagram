@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  color: $dark-grey;
+  text-align: center;
+  letter-spacing: 0.7px;
+  margin-bottom: 40px;
+  @media #{$lg-break} {
+    font-size: 24px;
+  }
+}
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: $dark-grey;
+  margin-bottom: 40px;
+  @media #{$lg-break} {
+    font-size: 20px;
+  }
+}
+
+h6 {
+  font-size: .8em;
+  font-weight: 500;
+  color: $dark-grey;
+  transition: color ease-in-out 200ms;
+  &:hover {
+    color: lighten($dark-grey, 20%);
+    cursor: pointer;
+  }
+  @media screen and #{$lg-break} {
+    font-size: 0.7em;
+  }
+}
+
+.link {
+  margin-top: 15px;
+  font-size: .8em;
+  color: $blue;
+  &:hover {
+    cursor: pointer;
+    color: darken($blue, 15%);
+  }
+}
+
+input {
+  font-size: 1em;
+  @media #{$lg-break} {
+    font-size: .8em;
+  }
+}
+
+.gradientText {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-radial-gradient(77% 9%, #5A5FCE 12%, #D82667 54%, #F46B27 76%, #FFD16A 100%);
+}

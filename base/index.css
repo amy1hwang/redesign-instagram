@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900");
+* {
+  box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+h2 {
+  font-size: 35px;
+  color: #4A4A4A;
+  text-align: center;
+  letter-spacing: 0.7px;
+  margin-bottom: 40px; }
+  @media (max-width: 1330px) {
+    h2 {
+      font-size: 24px; } }
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #4A4A4A;
+  margin-bottom: 40px; }
+  @media (max-width: 1330px) {
+    h3 {
+      font-size: 20px; } }
+
+h6 {
+  font-size: .8em;
+  font-weight: 500;
+  color: #4A4A4A;
+  transition: color ease-in-out 200ms; }
+  h6:hover {
+    color: #7d7d7d;
+    cursor: pointer; }
+  @media screen and (max-width: 1330px) {
+    h6 {
+      font-size: 0.7em; } }
+
+.link {
+  margin-top: 15px;
+  font-size: .8em;
+  color: #4990E2; }
+  .link:hover {
+    cursor: pointer;
+    color: #1f69c0; }
+
+input {
+  font-size: 1em; }
+  @media (max-width: 1330px) {
+    input {
+      font-size: .8em; } }
+
+.gradientText {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-radial-gradient(77% 9%, #5A5FCE 12%, #D82667 54%, #F46B27 76%, #FFD16A 100%); }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,21 @@
+.signUpButton {
+  margin: 20px 0;
+  background: $pink;
+  padding: 10px 25px;
+  color: $light-grey;
+  font-size: 0.9em;
+  border: none;
+  letter-spacing: .8px;
+  border-radius: 4px;
+  @extend %box-shadow;
+  &:hover, &:focus, &:active {
+    border: none;
+    outline: none;
+    @extend %box-shadow-high;
+    background: darken($pink, 5%);
+    cursor: pointer;
+  }
+  @media screen and #{$sm-break} {
+    margin-top: 10px;
+  }
+}

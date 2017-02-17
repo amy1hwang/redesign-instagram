@@ -1,0 +1,28 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding: 0 40px;
+  background: $white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and #{$md-break} {
+    display: none;
+  }
+  .footer-left {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    max-width: 900px;
+    @media screen and #{$lg-break} {
+      width: 70%;
+    }
+  }
+  .footer-right {
+    h6 {
+      color: $md-grey;
+    }
+  }
+}

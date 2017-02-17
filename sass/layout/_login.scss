@@ -1,0 +1,102 @@
+body {
+  background: $light-grey;
+}
+.main {
+  padding: 132px;
+  display: flex;
+  justify-content: space-between;
+  max-width: $max-width;
+  margin: auto;
+  @media #{$lg-break} {
+    padding: 100px 30px;
+  }
+  @media #{$md-break} {
+    flex-direction: column;
+    padding: 5px;
+  }
+  @media #{$sm-break} {
+    padding: 0;
+  }
+}
+.tabletHeader {
+  display: none;
+  margin: auto;
+  position: relative;
+  width: 98vw;
+  margin-bottom: 70px;
+  .logoText {
+    position: absolute;
+    width: 55%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  img {
+    width: 100%;
+  }
+  @media #{$md-break} {
+    display: block;
+  }
+  @media #{$sm-break} {
+    width: 100vw;
+    margin-bottom: 40px;
+  }
+}
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid $md-grey;
+  #signuptext {
+    width: 80%;
+  }
+  .grid {
+    display: flex;
+    width: 396px;
+    height: 396px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    @media #{$lg-break} {
+      width: 30vw;
+      height: 30vw;
+    }
+  }
+  @media screen and #{$md-break} {
+    display: none;
+  }
+}
+.right {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .signup-login {
+    margin-bottom: 30px;
+  }
+  .inactive {
+    color: $md-grey;
+    transition: color ease-in-out 200ms;
+    &:hover {
+      cursor: pointer;
+      color: $dark-grey;
+    }
+  }
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and #{$md-break} {
+    width: 100%;
+  }
+}
+.signup {
+  display: block;
+}
+.login {
+  display: none;
+}
