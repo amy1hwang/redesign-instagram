@@ -1,5 +1,5 @@
 # Instagram Redesign
-#### By _**Erica Nafziger and Amy Hwang**_
+### By _**Erica Nafziger and Amy Hwang**_ | 2.15.2017
 
 #### Exploration of atomic design principles with Instagram. Mock-ups made in sketch and then translated to code using HTML and Sass.
 
